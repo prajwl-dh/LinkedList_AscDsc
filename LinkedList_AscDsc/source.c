@@ -12,6 +12,7 @@
 //including the header file
 #include "header.h"
 
+//function to sort into Ascending order
 void bubbleSortAsc(struct node* head)
 {
     struct node *i , *j;
@@ -33,6 +34,7 @@ void bubbleSortAsc(struct node* head)
     
 }
 
+//Function to sort into Descending order
 void bubbleSortDsc(struct node* head)
 {
     struct node *i , *j;
@@ -54,6 +56,7 @@ void bubbleSortDsc(struct node* head)
     
 }
 
+//Function to print the elements of a linked list
 void printList(struct node* head)
 {
     while (head != NULL)

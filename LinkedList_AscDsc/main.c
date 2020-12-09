@@ -19,7 +19,8 @@ int main(int argc, const char * argv[])
     //declaring some important variables
     int choice = 0;
     int n = 0; //for number of nodes
-
+    
+    //creating 3 nodes
     struct node* head;
     struct node* current;
     struct node* temp;
